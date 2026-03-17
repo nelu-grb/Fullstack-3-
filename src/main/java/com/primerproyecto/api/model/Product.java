@@ -1,8 +1,10 @@
 package com.primerproyecto.api.model;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
+@JsonPropertyOrder({ "id", "name", "description", "price", "stock", "category", "brand" })
 public class Product {
 
     @Id

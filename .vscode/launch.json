@@ -2,11 +2,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimerProyectoApplication",
+            "request": "launch",
+            "mainClass": "com.primerproyecto.PrimerProyectoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-PrimerProyectoApplication<primer-proyecto-primer-proyecto-fs01-main>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.primerproyecto.PrimerProyectoApplication",
             "projectName": "primer-proyecto-primer-proyecto-fs01-main",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PrimerProyectoApplication<Fullstack-3->",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.primerproyecto.PrimerProyectoApplication",
+            "projectName": "Fullstack-3-",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
