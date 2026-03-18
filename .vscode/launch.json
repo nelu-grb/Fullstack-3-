@@ -26,6 +26,16 @@
             "projectName": "Fullstack-3-",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PrimerProyectoApplication<primer-proyecto-Fullstack-3->",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.primerproyecto.PrimerProyectoApplication",
+            "projectName": "primer-proyecto-Fullstack-3-",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
