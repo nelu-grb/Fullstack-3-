@@ -1,0 +1,15 @@
+./gradlew build -x test
+
+docker-compose up --build
+
+http://localhost:8080
+
+
+IMPORTANTEEEE
+Cada vez que hagas un cambio en tu código Java y quieras verlo reflejado en Docker, haz esto:
+
+Ctrl + C en la terminal (para detener el contenedor actual).
+
+./gradlew build -x test (para actualizar el archivo .jar). 
+
+docker-compose up --build (para actualizar la imagen de Docker y arrancar).
